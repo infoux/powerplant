@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>자가발전 실시간 모니터링</title>
+    <link href="css/set.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <!-- javaScript  -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+    <!-- S:header -->
+    <header id="header">
+        <h1>소비전력 실시간 모니터링</h1>
+        <ul class="util_menu">
+            <li class="back"><a href=""><i class="fa fa-angle-left" aria-hidden="true"></i><i class="sr-only">뒤로가기</i></a></li>
+        </ul>
+    </header>
+    <!-- E:header -->
+    <!-- S:menu -->
+    <nav id="menu">
+        <ul>
+            <li>
+                <a class="menu01" href="menu01.html"><h2>발전량</h2></a></li>
+            <li>
+                <a class="menu02" href="menu02.html"><h2>소비량</h2></a></li>
+            <li class="active">
+                <a class="menu03" href="menu03.html"><h2>제어</h2></a></li>
+        </ul>
+    </nav>
+    <!-- E:menu -->
+    <!-- S:mainContent -->
+    <article id="content">
+        <h3>소비현황</h3>
+        <section>
+            <h4 class="sr-only">현황 리스트</h4>
+            <div class="list">
+                <ul>
+                    <li>
+                        <h5>사이니지</h5>
+                        <p>전원상태 <strong>ON</strong></p>
+                        <ul>
+                            <li class="blue">대기시간<strong>2일</strong></li>
+                            <li class="control on"><button><i>ON</i></button></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>LED</h5>
+                        <p>전원상태 <strong>OFF</strong></p>
+                        <ul>
+                            <li class="green">대기시간<strong>5일</strong></li>
+                            <li class="control"><button><i>OFF</i></button></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>사이니지</h5>
+                        <p>전원상태 <strong>OFF</strong></p>
+                        <ul>
+                            <li class="red">대기시간<strong>10시간</strong></li>
+                            <li class="control"><button><i>OFF</i></button></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>소비원</th>
+                            <th>일간소비량</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>디지털사이니지</th>
+                            <td>300w</td>
+                        </tr>
+                        <tr>
+                            <th>CCTV</th>
+                            <td>300w</td>
+                        </tr>
+                        <tr>
+                            <th>LED</th>
+                            <td>300w</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>계</th>
+                            <td>300w</td>
+                        </tr>
+
+                    </tfoot>
+                </table>
+            </div>
+
+
+        </section>
+    </article>
+    <!-- E:mainContent -->
+    <!-- S:footer -->
+    <footer id="footer" class="sr-only">
+        <address>ⓒ INFOMIND</address>
+    </footer>
+    <!-- E:footer -->
+</body>
+
+</html>
+l>

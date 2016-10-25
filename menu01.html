@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>자가발전 실시간 모니터링</title>
+    <link href="css/set.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <!-- javaScript  -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+    <!-- S:header -->
+    <header id="header">
+        <h1>시스템 제어</h1>
+        <ul class="util_menu">
+            <li class="back"><a href=""><i class="fa fa-angle-left" aria-hidden="true"></i><i class="sr-only">뒤로가기</i></a></li>
+        </ul>
+    </header>
+    <!-- E:header -->
+    <!-- S:menu -->
+    <nav id="menu">
+        <ul>
+            <li class="active">
+                <a class="menu01" href="menu01.html"><h2>발전량</h2></a></li>
+            <li>
+                <a class="menu02" href="menu02.html"><h2>소비량</h2></a></li>
+            <li>
+                <a class="menu03" href="menu03.html"><h2>제어</h2></a></li>
+        </ul>
+    </nav>
+    <!-- E:menu -->
+    <!-- S:mainContent -->
+    <article id="content">
+        <h3>발전현황</h3>
+        <section>
+            <h4 class="sr-only">현황 그래프</h4>
+            <div class="chart chart60">
+                <h5><strong>60</strong>%</h5>
+                <p>300W</p>
+            </div>
+            <div class="chart-info">
+                <p>
+                    총용량 <strong>300W</strong>
+                </p>
+            </div>
+            <div class="info-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>에너지원</th>
+                            <th>생산량</th>
+                            <th>저장량</th>
+                            <th>일간누계</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>풍력</th>
+                            <td>300w</td>
+                            <td>300w</td>
+                            <td>300w</td>
+                        </tr>
+                        <tr>
+                            <th>태양광</th>
+                            <td>300w</td>
+                            <td>300w</td>
+                            <td>300w</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>계</th>
+                            <td>300w</td>
+                            <td>300w</td>
+                            <td>300w</td>
+                        </tr>
+
+                    </tfoot>
+                </table>
+            </div>
+
+
+        </section>
+    </article>
+    <!-- E:mainContent -->
+    <!-- S:footer -->
+    <footer id="footer" class="sr-only">
+        <address>ⓒ INFOMIND</address>
+    </footer>
+    <!-- E:footer -->
+</body>
+
+</html>
